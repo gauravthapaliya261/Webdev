@@ -1,0 +1,91 @@
+﻿@{
+    ViewBag.Title = "Reservation";
+}
+<style>
+
+
+    .reserv_container {
+        max-width: 800px;
+        margin: 20px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    th, td {
+        padding: 10px;
+        border-bottom: 1px solid #ddd;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    tr:hover {
+        background-color: #f9f9f9;
+    }
+</style>
+<div class="reserv_container">
+    <h1>Table Reservations</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Table Number</th>
+                <th>Capacity</th>
+                <th>Available</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>4</td>
+                <td>Yes</td>
+                <td><button>Reserve</button></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>6</td>
+                <td>No</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>2</td>
+                <td>Yes</td>
+                <td><button>Reserve</button></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>2</td>
+                <td>Yes</td>
+                <td><button>Reserve</button></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+                <td>Yes</td>
+                <td><button>Reserve</button></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>2</td>
+                <td>Yes</td>
+                <td><button>Reserve</button></td>
+            </tr>
+          
+        </tbody>
+    </table>
+</div>
